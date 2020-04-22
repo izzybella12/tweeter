@@ -1,38 +1,59 @@
+section.new-tweet {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 section.new-tweet h2 {
   font-family: 'Bungee', cursive;
-  position: absolute;
-  float: left;
-  margin: 10px;
-  margin-top: 30px;
-  top: 90%;
+  display: flex;
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: 2%;
 }
 
 label {
   font-family: 'Source Sans Pro', sans-serif;
-  margin: 10px;
-  float: left;
+  display: flex;
 }
 
 #tweet-text {
-  width: 100%;
-  height: 50%;
-  float:left;
+  font-family: 'Bungee', sans-serif;
+  color: #545149;
   background: cadetblue;
-  border-width: medium;
+  background-image: url("https://www.transparenttextures.com/patterns/inflicted.png");
+  border-bottom: solid;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
   border-color: #4056A1;
+  display: flex;
+  top: 117%;
+  width: 100%;
+  margin-top: 2%;
+  margin-left: auto;
+}
+
+div.button-word-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 button {
+  font-family: 'Bungee', cursive;
   color: white;
   background: #4056A1;
-  margin: 20px;
-  float: left;
-  font-family: 'Bungee', cursive;
   border: 0;
+  display: flex;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 4%;
 }
 
 output.counter {
-  float: right;
-  margin: 20px;
   font-family: 'Bungee', cursive;
+  display: flex;
+  margin-top: 2%;
+  margin-right: 2%;
 }

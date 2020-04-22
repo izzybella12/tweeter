@@ -16,7 +16,10 @@ span.nonBold {
   font-weight: 300;
 }
 
-main {
+main.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
   width: 90%;
   margin-left: auto;
