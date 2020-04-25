@@ -18,7 +18,9 @@ label {
 }
 
 #tweet-text {
-  font-family: 'Bungee', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: xx-large;
   color: #545149;
   background: cadetblue;
   background-image: url("https://www.transparenttextures.com/patterns/inflicted.png");
@@ -32,6 +34,7 @@ label {
   width: 100%;
   margin-top: 2%;
   margin-left: auto;
+  outline: none;
 }
 
 div.button-word-count {
@@ -40,20 +43,27 @@ div.button-word-count {
   justify-content: space-between;
 }
 
-button {
+#submit-tweet {
   font-family: 'Bungee', cursive;
   color: white;
   background: #4056A1;
   border: 0;
-  display: flex;
   margin-top: 2%;
   margin-left: 2%;
   margin-bottom: 4%;
 }
-
-output.counter {
+#word-count {
   font-family: 'Bungee', cursive;
-  display: flex;
   margin-top: 2%;
   margin-right: 2%;
+}
+
+#error {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  font-size: medium;
+  color: #8b0000;
+  font-weight: bold;
 }

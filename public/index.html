@@ -16,65 +16,56 @@
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
     <link rel="stylesheet" href="/styles/posted-tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/media-only.css" type="text/css" />
 
     <!-- Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/scripts/timeago.min.js"></script>
 
     <!-- App JS -->
+    <script type="text/javascript" src="/scripts/nav-bar-toggle.js"></script>
     <script type="text/javascript" src="/scripts/client.js"></script>
     <script src="/scripts/composer-char-counter.js"></script>
+
+
   </head>
 
   <body>
     <!-- Top nav bar (fixed) -->
     <nav>
       <span class="title">tweeter</span>
-      <span class="instruction">Write <span class="nonBold">a new tweet</span></span>
-      <span class="arrows"></span>
+      <button class="instruction" id="clickable-span">Write a new tweet</button>
     </nav>
       
-    <header>
-      <div > 
+    <header class="top-area">
+      <div> 
         <img src="/images/profile-hex.png" class="avatar"> 
       </div>
-      <br>
       <div>
-        <h2>Isabella <span class="nonBold">Panagrosso</span></h2>
+        <h2 class="name">Isabella <span class="nonBold">Panagrosso</span></h2>
       </div>
     </header>
 
     <!-- Page-specific (main) content here -->
     <main class="container">
 
-      <section class="new-tweet">
+      <section class="new-tweet" id="toggle-tweet-box">
         <h2>Compose Tweet</h2>
         <form method="POST" action="/tweets">
           <label for="tweet-text">What are you humming about?</label>
           <textarea name="text" id="tweet-text"></textarea>
           <div class="button-word-count">
-            <button type="submit">Tweet</button>
-            <output name="counter" class="counter" for="tweet-text" id="word-count"></output>
+            <button type="submit" id="submit-tweet">Tweet</button>
+            <output name="counter" class="counter" for="tweet-text" id="word-count">140</output>
           </div>
+          <span id="error"></span>
         </form>
       </section>
 
-      <section id="posted-tweet">
-        <article class="tweet-container">
-          <header class="name-username">
-            <span class="material-icons">&#xE87C;</span>
-            <span class="tweeter-name" >Isabella</span>
-            <span class="tweeter-username">@izzybella12</span>
-          </header>
-          <span class="tweet-content">This is my first tweet yo.</span>
-          <footer class="date-icon">
-            <span class="date">1 day ago</span>
-            <span class="material-icons">favorite_border</span>
-          </footer>
-        </article>
-  
+      <section id="tweet-container">
       </section>
 
     </main>

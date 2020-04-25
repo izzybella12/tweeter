@@ -1,10 +1,11 @@
 
-#posted-tweet {
+#tweet-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
+  margin-top: 3%;
 }
 
-article.tweet-container {
+article.posted-tweet {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12,17 +13,18 @@ article.tweet-container {
   margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   border-style: solid;
   border-color: #545149;
   background: cadetblue;
 }
 
-article.tweet-container:hover {
+article.posted-tweet:hover {
 box-shadow: 7px 7px 5px blue;
 }
 
 header.name-username {
+  background-color: cadetblue;
   display: flex;
   flex-direction: row; 
   justify-content: flex-start;
@@ -41,14 +43,16 @@ span.material-icons {
 span.tweeter-name {
   font-family: 'Source Sans Pro', sans-serif;
   align-self: flex-start;
-  margin-left: 1%;
+  margin-left: 2%;
+  margin-top: 3%;
 }
 
 span.tweeter-username {
   align-self: flex-end;
   margin-left: auto;
-  margin-right: 2%;
-  margin-bottom: 1%;
+  margin-top: 0;
+  margin-right: 3%;
+  margin-bottom: 3%;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: large;
   font-weight: bold;
@@ -58,8 +62,9 @@ span.tweeter-username {
 span.tweet-content {
   display: flex;
   width: 100%;
-  margin-left: 2%;
+  margin-left: 3%;
   margin-bottom: 1%;
+  padding-right: 7%;
 }
 
 footer.date-icon {
@@ -71,14 +76,16 @@ footer.date-icon {
   margin-right: auto;
   margin-top: 2%;
   border-top: solid;
+  border-bottom: ;
 }
 
 span.date {
   font-size: small;
   margin-top: 3%;
+  margin-bottom: 2%;
 }
 
-footer span.material-icons {
+footer i.material-icons {
   margin-top: 2%;
   margin-bottom: 2%;
 }

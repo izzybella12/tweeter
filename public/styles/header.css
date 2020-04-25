@@ -3,9 +3,14 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/inflicted.png");
 }
 
-header {
+header.top-area {
+  background-color: #4056A1;
   height: 400px;
-  margin-top: 5em;
+  margin-top: 10%;
+}
+
+img.avatar {
+  margin-top: 6%;
 }
 
 header div {
@@ -16,13 +21,22 @@ span.nonBold {
   font-weight: 300;
 }
 
+h2 {
+  margin-top: 0;
+}
+
+h2.name {
+  color: white;
+  margin-top: 1%;
+}
+
 main.container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  text-align: center;
+  text-align: left;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 7%;
 }
