@@ -6,15 +6,17 @@ This repository is the starter code for the project: us students have forked and
 
 Hope you enjoy! :)
 
-!["Hovering over a tweet with 1025px screen"]()
+## Screenshots 
 
-!["Hovering over the compose tweet button with 1025px screen"] ()
+!["Hovering over the compose tweet button with 1025px screen"] (https://github.com/izzybella12/tweeter/blob/master/docs/hovering-over-compose-tweet-1024.png?raw=true)
 
-!["Hovering over a tweet with 768px screen"] ()
+!["Hovering over a tweet with 1025px screen"](https://github.com/izzybella12/tweeter/blob/master/docs/hovering-over-tweet-1024.png?raw=true)
+
+!["Hovering over a tweet with 768px screen"] (https://github.com/izzybella12/tweeter/blob/master/docs/hovering-over-tweet-768.png?raw=true)
 
 !["Error message when client tries to submit a tweet with no words"] (https://github.com/izzybella12/tweeter/blob/master/docs/error-no-words-submitted-1024.png?raw=true)
 
-!["Error message when client tires to submit a tweet with too many words"] ()
+!["Error message when client tires to submit a tweet with too many words"] (https://github.com/izzybella12/tweeter/blob/master/docs/error-over-140-words-submitted-1024.png?raw=true)
 
 ## Getting Started
 
