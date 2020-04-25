@@ -12,7 +12,7 @@ Hope you enjoy! :)
 
 !["Hovering over a tweet with 768px screen"] ()
 
-!["Error message when client tries to submit a tweet with no words"] ()
+!["Error message when client tries to submit a tweet with no words"] (https://github.com/izzybella12/tweeter/blob/master/docs/error-no-words-submitted-1024.png?raw=true)
 
 !["Error message when client tires to submit a tweet with too many words"] ()
 
