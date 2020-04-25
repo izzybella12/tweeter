@@ -6,6 +6,16 @@ This repository is the starter code for the project: us students have forked and
 
 Hope you enjoy! :)
 
+!["Hovering over a tweet with 1025px screen"]()
+
+!["Hovering over the compose tweet button with 1025px screen"] ()
+
+!["Hovering over a tweet with 768px screen"] ()
+
+!["Error message when client tries to submit a tweet with no words"] ()
+
+!["Error message when client tires to submit a tweet with too many words"] ()
+
 ## Getting Started
 
 1. Fork this repository, then clone your fork of this repository.
