@@ -29,3 +29,5 @@ Hope you enjoy! :)
 
 - Express
 - Node 5.10.x or above
+- Timeago
+- Body-parser
